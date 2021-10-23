@@ -123,7 +123,6 @@ function subtractMinute(minutes) {
 }
 
 function errorText(hours, minutes) {
-    let errorText;
     if (hoursArray.hasOwnProperty(hours) && minutesArray.hasOwnProperty(minutes)) {
         return '';
     } else if (!hoursArray.hasOwnProperty(hours) && !minutesArray.hasOwnProperty(minutes)) {
